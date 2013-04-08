@@ -18,4 +18,5 @@ my $string = $fb->exec("start"=>301, "end"=>400, "ret"=>"string"); # String
 printf "%s\n", $string; # Print it out
 $fb->set("ret"=>"print"); # Let's print from here
 $fb->exec("start"=>401, "end"=>500, "sep"=>","); # Comma separated
-$fb->exec("start");
+$fb->set_args("fizz"=>"hoge", "buzz"=>"fuga"); # Japanesque?
+$fb->exec("start"=>501, "end"=>600, "sep"=>"\n");
