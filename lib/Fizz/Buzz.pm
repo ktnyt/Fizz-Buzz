@@ -60,7 +60,7 @@ sub exec {
     }
 
     if($ret eq "string") {
-        return sprintf "%s\n", join $sep, @fizzbuzz;
+        return join $sep, @fizzbuzz;
     }
 }
 
