@@ -1,0 +1,8 @@
+Build.PL
+Changes
+lib/Fizz/Buzz.pm
+MANIFEST			This list of files
+README
+sample.pl
+t/00.load.t
+t/perlcritic.t
